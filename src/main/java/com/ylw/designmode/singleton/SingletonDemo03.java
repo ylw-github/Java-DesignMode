@@ -1,4 +1,4 @@
-package com.ylw.designmode.singleinstance;
+package com.ylw.designmode.singleton;
 
 /**
  * 静态内部类式

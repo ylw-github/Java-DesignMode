@@ -1,4 +1,4 @@
-package com.ylw.designmode.singleinstance;
+package com.ylw.designmode.singleton;
 
 
 public class SingletonDemo06 {
@@ -14,10 +14,10 @@ public class SingletonDemo06 {
     }
 
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
-        Class<?> demo = Class.forName("com.ylw.designmode.singleinstance.SingletonDemo06");
+        Class<?> demo = Class.forName("com.ylw.designmode.singleton.SingletonDemo06");
         Object o = demo.newInstance();
 
-        Class<?> demo1 = Class.forName("com.ylw.designmode.singleinstance.SingletonDemo06");
+        Class<?> demo1 = Class.forName("com.ylw.designmode.singleton.SingletonDemo06");
         Object o1 = demo.newInstance();
     }
 }

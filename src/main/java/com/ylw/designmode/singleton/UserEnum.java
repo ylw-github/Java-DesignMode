@@ -1,4 +1,4 @@
-package com.ylw.designmode.singleinstance;
+package com.ylw.designmode.singleton;
 
 public enum UserEnum {
     HTTP_200(200, "请求成功"), HTTP_500(500, "请求失败");

@@ -1,4 +1,4 @@
-package com.ylw.designmode.singleinstance;
+package com.ylw.designmode.singleton;
 
 /**
  * 懒汉式

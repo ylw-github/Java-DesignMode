@@ -1,4 +1,4 @@
-package com.ylw.designmode.singleinstance;
+package com.ylw.designmode.singleton;
 
 public class SingletonDemo04 {
 
